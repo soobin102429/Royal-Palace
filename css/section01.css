@@ -407,6 +407,43 @@ html,body{
 
 
 
+/*  =================Start section 03================= */
+.sec03-wrap{
+  width: 100%;
+  background: #282828;
+  margin: 0 auto;
+  position: relative;
+}
+/* bg end */
+.sec03-title-wrap{
+  padding: 1% 0% 0% 2%;
+}
+.tourcourse{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 0.6rem;
+}
+.sec03-normal{
+  font-size: 1.5rem;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  letter-spacing:0.18%;
+  color: #888888;
+}
+
+/* sec03-title-wrap end */
+.main-map{
+  text-align: center;
+}
+#guide-map{
+  width: 90%;
+}
+/*  =================section 03 end================= */
+
+
+
 
 
 /*  =================start media query================= */
