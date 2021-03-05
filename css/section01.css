@@ -341,7 +341,46 @@ html,body{
   display: none;
   }
   /* popup wrap end */
-  
+  .popup-contents-wrap{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+  }
+  .popup-title{
+    color:#d1bb72;
+    font-size: 40px;
+    padding: 20px 20px 10px 0;
+  }
+  .x{
+    color: #777;
+    font-size: 40px;
+  }
+
+  .popup-normal{
+    color: #a0a0a0;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 50px;
+  }
+  .popup-w-25{
+    width: 22%;
+    float: left;
+    margin-right: 3%;
+    text-align: center;
+  }
+  .popup-img{
+    width: 100%;
+    height: 40%;
+    padding-bottom: 10px;
+  }
+  .name{
+    color: #a0a0a0;
+    padding: 5px 0px;
+  }
+  .popup-img-ex{
+    color: white;
+  }
+
   /* start popup contents wrap */
   
   /* popup contents end */
