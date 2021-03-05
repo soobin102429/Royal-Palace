@@ -281,7 +281,6 @@ html,body{
  
  /* progress bar end */
  
-/* start popup */
 /* start popup wrap */
 .popupbg{
     width: 100%;
@@ -294,7 +293,7 @@ html,body{
   }
   .popup{
   width: 60%;
-  height: 65%;
+  /* height: 65%; */
   background: rgba(0,0,0,.5);
   border: 1.5px solid white;
   position: absolute;
@@ -309,7 +308,7 @@ html,body{
     border-radius: 100%;
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: 100%;
     transform: translate(-50%, -50%);
     padding: 20px;
     z-index: 1;
@@ -341,15 +340,16 @@ html,body{
   display: none;
   }
   /* popup wrap end */
+
   .popup-contents-wrap{
     width: 80%;
-    text-align: left;
     margin: auto;
   }
   .popup-title{
     color:#d1bb72;
     font-size: 40px;
-    padding: 20px 20px 10px 0;
+    text-align: center;
+    padding: 20px 20px 15px 0;
   }
   .x{
     color: #777;
@@ -359,7 +359,7 @@ html,body{
   .popup-normal{
     color: #a0a0a0;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 25px;
     padding-bottom: 50px;
   }
   .popup-w-25{
@@ -379,11 +379,13 @@ html,body{
   }
   .popup-img-ex{
     color: white;
+    padding-bottom: 30px;
   }
-
+  .block{
+    display: none;
+  }
   /* start popup contents wrap */
   
-  /* popup contents end */
   
   /* popup end */
 
@@ -411,7 +413,6 @@ html,body{
     .process-wrapper {
         padding-top: 50%;
      }
-     
 /* section02 end */
 }
 
@@ -440,6 +441,21 @@ html,body{
       .process-wrapper {
         padding-top: 60%;
      }
+     /* process end */
+     .popup-title{
+       font-size: 31px;
+     }
+     .x{
+       font-size: 29px;
+     }
+     .popup-normal{
+       font-size: 16px;
+     }
+     .name,.popup-img-ex{
+       font-size: 13px;
+     }
+     /* popup contents end */
+
       /* section02-end */
 }
   /* ========769 end======== */
@@ -464,7 +480,6 @@ html,body{
   /* popup */
   .popup {
     width: 75%;
-    height: 70%;
     background: rgba(0,0,0,.5);
     border: 1.5px solid white;
     position: absolute;
@@ -479,7 +494,7 @@ html,body{
     border-radius: 100%;
     position: absolute;
     top: 0%;
-    left: 0%;
+    left: 100%;
     transform: translate(-50%, -50%);
     padding: 14px;
     z-index: 1;
@@ -508,6 +523,18 @@ html,body{
 }
   /* popup end */
 
+  .popup-title{
+    font-size: 28px;
+  }
+  .x{
+    font-size: 24px;
+  }
+  .popup-normal{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  /* popup contents end */
+
   /* section02 end */
 
 }
@@ -533,13 +560,106 @@ html,body{
       .no{
         display: none;
      }
+     /* sec02-contents end */
      #progress-bar-container li .step-inner{
         font-family: 'Noto Sans KR', sans-serif;
         font-weight: 300;
      }
+     /* progress end */
+     .popup-title{
+      font-size: 21px;
+    }
+    .x{
+      font-size: 19px;
+    }
+    .popup-normal{
+      font-size: 11px;
+      padding-bottom: 20px;
+    }
+    .float{
+      float: left;
+    }
+
+    .popup-w-25{
+      width: 30%;
+      float: left;
+      padding: 0% 10% 0% 10%;
+      margin-right: 0;
+      text-align: center;
+    }
+    .popup-img{
+      width: 100%;
+      height: 40%;
+      padding-bottom: 10px;
+    }
+    .name{
+      color: #a0a0a0;
+      padding: 5px 0px;
+    }
+    .popup-img-ex{
+      color: white;
+      padding-bottom: 10px;
+    }
+    .none{
+      display: none;
+    }
+    .block{
+      display: block;
+    }
+     /* popup end */
 /* section02 end */
 }
  /* ========415 end======== */
 
+ @media(max-width:376px){
+        /* start popup */
+        .popup-title{
+          font-size: 18px;
+        }
+        .x{
+          font-size: 16px;
+        }
+        .popup-normal{
+          padding-bottom: 10px;
+        }
+        .popup-img-ex{
+          color: white;
+          padding-bottom: 5px;
+        }
+        .name,.popup-img-ex{
+          font-size: 11px;
+        }
+         /* popup end */
+    /* section02 end */
+ }
+/* ========375 end======== */
+@media(max-width:321px){
+  /* start popup */
+  .popup-title{
+    font-size: 16px;
+  }
+  .popup-normal{
+    padding-bottom: 3px;
+  }
+  .name,.popup-img-ex{
+    font-size: 10px;
+  }
+   /* popup end */
+/* section02 end */
+}
+/* ========375 end======== */
+
+@media(max-width:281px){
+  /* start popup */
+  .popup-title{
+    font-size: 13px;
+  }
+  .popup-normal{
+    line-height: 16px;
+  }
+   /* popup end */
+/* section02 end */
+}
+/* ========375 end======== */
 
 /*  =================media query end================= */
