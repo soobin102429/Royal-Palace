@@ -413,10 +413,11 @@ html,body{
   background: #282828;
   margin: 0 auto;
   position: relative;
+  float: left;
 }
 /* bg end */
 .sec03-title-wrap{
-  padding: 1% 0% 0% 2%;
+  padding: 2% 0% 0% 2%;
 }
 .tourcourse{
   font-family: 'Noto Sans KR', sans-serif;
@@ -434,10 +435,13 @@ html,body{
 }
 
 /* sec03-title-wrap end */
-.guide-wrap{
-  width: 20%;
+.content-wrap{
+  width: 23%;
   float: left;
-  padding-top: 4%;
+  padding-left: 1%;
+}
+.guide-wrap{
+  padding-top: 20%;
   padding-left: 2%;
 }
 
@@ -466,7 +470,7 @@ html,body{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 20px;
   text-align: left;
-  color: rgb(148, 148, 148);
+  color: white;
   cursor: pointer;
 }
 .guide-menus>li{
@@ -475,13 +479,23 @@ margin-bottom: 1.7rem;
 /* guide-wrap end */
 
 .guideMap{
-  width: 78%;
+  width: 65%;
   float: right;
+  padding: 1% 0% 0% 2%;
+}
+.main-map{
+  text-align: center;
+}
+#guide-map{
+  width: 92%;
+  float: right;
+  margin-top: 2%;
+  margin-right: 3%;
+  margin-bottom: 3%;
 }
 
-#guide-map{
-  float: right;
-}
+
+
 /*  =================section 03 end================= */
 
 
