@@ -434,11 +434,53 @@ html,body{
 }
 
 /* sec03-title-wrap end */
-.main-map{
-  text-align: center;
+.guide-wrap{
+  width: 20%;
+  float: left;
+  padding-top: 4%;
+  padding-left: 2%;
 }
+
+.circle-wrap{
+  float: left;
+}
+.guide-menus{
+  float: left;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  padding: 8px;
+  background: #d3b460;
+  color: white;
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 1rem;
+}
+.guide-menus{
+  float: left;
+  margin-top: 1%;
+  padding-left: 2%;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(148, 148, 148);
+  cursor: pointer;
+}
+.guide-menus>li{
+margin-bottom: 1.7rem;
+}
+/* guide-wrap end */
+
+.guideMap{
+  width: 78%;
+  float: right;
+}
+
 #guide-map{
-  width: 90%;
+  float: right;
 }
 /*  =================section 03 end================= */
 
