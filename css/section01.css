@@ -474,15 +474,158 @@ html,body{
 .guideMap{
   width: 70%;
   position: relative;
-  float: right;
+  float: left;
 }
 #guide-map{
   width: 75%;
   position: relative;
 }
+/* main-map end */
 
+/* 지도 버튼 */
+.guidemap-btn01{
+  position: absolute;
+    width: 11%;
+    height: 2%;
+    transform: skew(-31deg) rotate(24deg);
+    top: 83.1%;
+    right: 81%;
+    cursor: pointer;
+  background: lightcoral;
+}
+.guidemap-btn02{
+  position: absolute;
+  width: 12%;
+  height: 10%;
+  transform: skew(-40deg) rotate(20deg);
+  top: 56.9%;
+  right: 64.9%;
+  cursor: pointer;
+  background: lightcoral;
+}
+.guidemap-btn03{
+  position: absolute;
+  width: 9%;
+  height: 2.5%;
+  transform: skew(-32deg) rotate(22deg);
+  top: 54.1%;
+  right: 61%;
+  cursor: pointer;
+  background: rgb(192, 216, 86);
+}
+.guidemap-btn04{
+  position: absolute;
+  width: 11%;
+  height: 3.5%;
+  transform: skew(-30deg) rotate(22deg);
+  top: 50.1%;
+  right: 58%;
+  cursor: pointer;
+  background: lightcoral;
+}
+.guidemap-btn05{
+  position: absolute;
+  width: 6.8%;
+  height: 4.3%;
+  transform: skew(-28deg) rotate(23deg);
+  top: 45.7%;
+  right: 57%;
+  cursor: pointer;
+  background: rgb(192, 216, 86);
+}
+.guidemap-btn06{
+  position: absolute;
+  width: 8.4%;
+  height: 4.7%;
+  transform: skew(-35deg) rotate(20deg);
+  top: 46.2%;
+  right: 46.4%;
+  cursor: pointer;
+  background: lightcoral;
+}
+.guidemap-btn07{
+  position: absolute;
+  width: 10%;
+  height: 5%;
+  transform: skew(-40deg) rotate(20deg);
+  top: 59.9%;
+  right: 53.9%;
+  cursor: pointer;
+  background: rgb(192, 216, 86);
+}
+.guidemap-btn08{
+  position: absolute;
+  width: 9%;
+  height: 8%;
+  transform: skew(-39deg) rotate(17deg);
+  top: 21%;
+  right: 39.9%;
+  cursor: pointer;
+  background: rgb(192, 216, 86);
+}
+.guidemap-btn09{
+  position: absolute;
+  width: 9%;
+  height: 5%;
+  transform: skew(-43deg) rotate(20deg);
+  top: 15%;
+  right: 34.9%;
+  cursor: pointer;
+  background: lightcoral;
+}
+.guidemap-btn10{
+  position: absolute;
+  width: 7%;
+  height: 2%;
+  transform: skew(-43deg) rotate(20deg);
+  top: 9.5%;
+  right: 40.9%;
+  cursor: pointer;
+  background: rgb(192, 216, 86);
+}
+.guidemap-btn11{
+  position: absolute;
+  width: 12%;
+  height: 7%;
+  transform: skew(-40deg) rotate(15deg);
+  top: 5.5%;
+  right: 50.9%;
+  cursor: pointer;
+  background: lightcoral;
+}
+.guidemap-btn12{
+  position: absolute;
+  width: 14.5%;
+  height: 9%;
+  transform: skew(-44deg) rotate(18deg);
+  top: 36.5%;
+  right: 63%;
+  cursor: pointer;
+  background: rgb(192, 216, 86);
+}
+.guidemap-btn13{
+  position: absolute;
+  width: 7.5%;
+  height: 3%;
+  transform: skew(-44deg) rotate(18deg);
+  top: 48.7%;
+  right: 70%;
+  cursor: pointer;
+  background: lightcoral;
+}
+.guidemap-btn14{
+  position: absolute;
+  width: 8.5%;
+  height: 7.8%;
+  transform: skew(-41deg) rotate(18deg);
+  top: 51.7%;
+  right: 50%;
+  cursor: pointer;
+  background: rgb(192, 216, 86);
+}
 
 /* guideMap end */
+
 
 
 
