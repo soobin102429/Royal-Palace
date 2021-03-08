@@ -432,67 +432,57 @@ html,body{
   font-weight: 400;
   letter-spacing:0.18%;
   color: #888888;
+  padding-bottom: 4%;
 }
 
-/* sec03-title-wrap end */
-.content-wrap{
-  width: 23%;
-  float: left;
-  padding-left: 1%;
-}
-.guide-wrap{
-  padding-top: 20%;
-  padding-left: 2%;
-}
-
-.circle-wrap{
+/* sec03-title wrap end */
+.guide-menu-wrap{
+  width: 30%;
   float: left;
 }
-.guide-menus{
+.guide-width{
+  width: 100%;
   float: left;
 }
 
-.circle {
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
-  padding: 8px;
+.map-menu-01{
+  float: left;
+}
+.circle{
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
   background: #d3b460;
+  font-family: 'Noto Sans KR', sans-serif;
   color: white;
   text-align: center;
-  font-family: 'Noto Sans KR', sans-serif;
-  margin-bottom: 1rem;
+  line-height: 25px;
+  margin-bottom: 4%;
+  margin-left: 6%;
 }
-.guide-menus{
+.guideMap-menu{
   float: left;
-  margin-top: 1%;
-  padding-left: 2%;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 20px;
-  text-align: left;
   color: white;
   cursor: pointer;
+  margin-left: 1%;
 }
-.guide-menus>li{
-margin-bottom: 1.7rem;
-}
-/* guide-wrap end */
+/* guide-menu-wrap end */
 
 .guideMap{
-  width: 65%;
+  width: 70%;
+  position: relative;
   float: right;
-  padding: 1% 0% 0% 2%;
-}
-.main-map{
-  text-align: center;
 }
 #guide-map{
-  width: 92%;
-  float: right;
-  margin-top: 2%;
-  margin-right: 3%;
-  margin-bottom: 3%;
+  width: 75%;
+  position: relative;
 }
+
+
+/* guideMap end */
 
 
 
