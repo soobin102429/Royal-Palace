@@ -626,9 +626,90 @@ html,body{
 
 /* guideMap end */
 
+/* start popup wrap */
+.map-popupbg{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.map-popup{
+width: 35%;
+/* height: 65%; */
+background: rgba(0,0,0,.5);
+border: 1.5px solid white;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+}
+.map-popup label{
+  background: rgba(0,0,0,.7);
+  border: 1px solid white;
+  border-radius: 100%;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  z-index: 1;
+}
 
+.map-popup label:before{
+  content: '';
+  height: 25px;
+  border: solid;
+  border: 1.5px solid white;
+  border-width: 0 2px 0 0;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 3px;
+  left: 14px;
+  
+}
+.map-popup label:after{
+content: '';
+height: 25px;
+border: 1.5px solid white;
+border-width: 0 2px 0 0;
+transform: rotate(-45deg);
+position: absolute;
+top: 3px;
+left: 14px;
+}
+.map-popup,.map-popupbg{
+display: none;
+}
+/* map-popup wrap end */
+/* map-popup-contents-wrap */
+.map-popup-wrap{
+  width: 80%;
+  margin: 0 auto;
+}
+.map-popup-title{
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin:  5% 0% 4% 0%;
+}
+.map-popup-img{
+  width: 100%;
+}
+.map-popup-normal{
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-weight: 200;
+  margin:  3% 0 5% 0%;
+}
 
-
+/* map-popup-contents-wrap-end */
 /*  =================section 03 end================= */
 
 
