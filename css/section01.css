@@ -491,7 +491,6 @@ html,body{
     top: 83.1%;
     right: 81%;
     cursor: pointer;
-  background: lightcoral;
 }
 .guidemap-btn02{
   position: absolute;
@@ -501,7 +500,6 @@ html,body{
   top: 56.9%;
   right: 64.9%;
   cursor: pointer;
-  background: lightcoral;
 }
 .guidemap-btn03{
   position: absolute;
@@ -511,7 +509,6 @@ html,body{
   top: 54.1%;
   right: 61%;
   cursor: pointer;
-  background: rgb(192, 216, 86);
 }
 .guidemap-btn04{
   position: absolute;
@@ -521,7 +518,6 @@ html,body{
   top: 50.1%;
   right: 58%;
   cursor: pointer;
-  background: lightcoral;
 }
 .guidemap-btn05{
   position: absolute;
@@ -531,7 +527,6 @@ html,body{
   top: 45.7%;
   right: 57%;
   cursor: pointer;
-  background: rgb(192, 216, 86);
 }
 .guidemap-btn06{
   position: absolute;
@@ -541,7 +536,6 @@ html,body{
   top: 46.2%;
   right: 46.4%;
   cursor: pointer;
-  background: lightcoral;
 }
 .guidemap-btn07{
   position: absolute;
@@ -551,7 +545,6 @@ html,body{
   top: 59.9%;
   right: 53.9%;
   cursor: pointer;
-  background: rgb(192, 216, 86);
 }
 .guidemap-btn08{
   position: absolute;
@@ -561,7 +554,6 @@ html,body{
   top: 21%;
   right: 39.9%;
   cursor: pointer;
-  background: rgb(192, 216, 86);
 }
 .guidemap-btn09{
   position: absolute;
@@ -571,7 +563,7 @@ html,body{
   top: 15%;
   right: 34.9%;
   cursor: pointer;
-  background: lightcoral;
+
 }
 .guidemap-btn10{
   position: absolute;
@@ -581,7 +573,6 @@ html,body{
   top: 9.5%;
   right: 40.9%;
   cursor: pointer;
-  background: rgb(192, 216, 86);
 }
 .guidemap-btn11{
   position: absolute;
@@ -591,7 +582,6 @@ html,body{
   top: 5.5%;
   right: 50.9%;
   cursor: pointer;
-  background: lightcoral;
 }
 .guidemap-btn12{
   position: absolute;
@@ -601,7 +591,6 @@ html,body{
   top: 36.5%;
   right: 63%;
   cursor: pointer;
-  background: rgb(192, 216, 86);
 }
 .guidemap-btn13{
   position: absolute;
@@ -611,7 +600,6 @@ html,body{
   top: 48.7%;
   right: 70%;
   cursor: pointer;
-  background: lightcoral;
 }
 .guidemap-btn14{
   position: absolute;
@@ -621,7 +609,6 @@ html,body{
   top: 51.7%;
   right: 50%;
   cursor: pointer;
-  background: rgb(192, 216, 86);
 }
 
 /* guideMap end */
@@ -712,18 +699,21 @@ display: none;
 /* map-popup-contents-wrap-end */
 /*  =================section 03 end================= */
 
-.section06{
-  background: #000;
-  width:100%;
-  height:700px;
-  
-}
 
-#map{
-  width: 700px;
-  height: 700px;
-
+/*  =================Start section 04================= */
+.sec04-wrap{
+  width: 100%;
+  background-image: url('../images/d85bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
+/* bg end */
+/*  =================section 04 end================= */
+
+
+
 
 /*  =================start media query================= */
 
@@ -742,6 +732,60 @@ display: none;
         padding-top: 50%;
      }
 /* section02 end */
+.guidemap-btn01 {
+  right: 76%;
+}
+.guidemap-btn02 {
+  width: 15%;
+  height: 12%;
+  right: 54%;
+}
+.guidemap-btn03 {
+  right: 50%;
+}
+.guidemap-btn04 {
+  right: 46%;
+}
+.guidemap-btn05 {
+  right: 44%;
+}
+.guidemap-btn06 {
+  right: 30.4%;
+}
+.guidemap-btn07 {
+  right: 39.9%;
+}
+.guidemap-btn08 {
+  width: 13%;
+  height: 7%;
+  top: 21%;
+  right: 19.9%;
+}
+
+.guidemap-btn09 {
+  right: 13.9%;
+}
+.guidemap-btn10 {
+  right: 21.9%;
+}
+.guidemap-btn11 {
+  width: 13%;
+  right: 36.9%;
+}
+.guidemap-btn12{
+  top: 37.5%;
+  right: 52%;
+}
+.guidemap-btn13 {
+  right: 62%;
+}
+.guidemap-btn14 {
+  width: 11.5%;
+  height: 6.8%;
+  top: 51.7%;
+  right: 34%;
+}
+/* 지도 위치 end */
 .map-popup {
   width: 80%;
 }
@@ -809,6 +853,69 @@ display: none;
      /* popup contents end */
 
       /* section02-end */
+
+      .guidemap-btn01 {
+        top: 83.1%;
+        right: 76%;
+      }
+      .guidemap-btn02 {
+        width: 15%;
+        height: 11%;
+        top: 56.9%;
+        right: 53.9%;
+      }
+      .guidemap-btn03 {
+        right: 50%;
+      }
+      .guidemap-btn04 {
+        width: 11%;
+        height: 3.5%;
+        top: 50.1%;
+        right: 45%;
+      }
+      .guidemap-btn05 {
+        width: 6.8%;
+        height: 5.3%;
+        top: 44.7%;
+        right: 44%;
+      }
+      .guidemap-btn06 {
+        right: 30.4%;
+      }
+      .guidemap-btn07 {
+        right: 39.9%;
+      }
+      .guidemap-btn08 {
+        width: 12%;
+        height: 7%;
+        top: 21%;
+        right: 20.9%;
+    }
+    .guidemap-btn09 {
+      right: 13.9%;
+    }
+    .guidemap-btn10 {
+      right: 22.9%;
+    }
+    .guidemap-btn11 {
+      width: 14%;
+      height: 8%;
+      top: 5.5%;
+      right: 35.9%;
+    }
+    .guidemap-btn12 {
+      right: 52%;
+    }
+    .guidemap-btn13 {
+      right: 61%;
+    }
+    .guidemap-btn14 {
+      width: 11.5%;
+      height: 6.8%;
+      top: 52.7%;
+      right: 33%;
+    }
+      /* guidemap 위치 end */
       .guide-menu-wrap {
         width: 60%;
         float: left;
