@@ -733,6 +733,30 @@ display: none;
         padding-top: 50%;
      }
 /* section02 end */
+.map-popup {
+  width: 80%;
+}
+.tourcourse {
+  padding-top: 0.6rem;
+}
+.guide-menu-wrap {
+  width: 100%;
+}
+.guide-width {
+  width: 15%;
+}
+.circle {
+  margin-bottom: 10%;
+  margin-left: 15%;
+}
+.guideMap {
+  width: 100%;
+  margin: 10% 0%;
+}
+#guide-map {
+  width: 100%;
+}
+/* section03 end */
 }
 
 @media (max-width:769px){
@@ -776,6 +800,38 @@ display: none;
      /* popup contents end */
 
       /* section02-end */
+      .guide-menu-wrap {
+        width: 60%;
+        float: left;
+      }
+      .guide-width {
+        width: 25%;
+        float: left;
+      }
+      .circle {
+        float: left;
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+        background: #d3b460;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: white;
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 18%;
+        margin-left: 20%;
+      }
+      .guideMap {
+        width: 100%;
+        position: relative;
+        float: left;
+        margin: 5% 0%;
+      }
+      #guide-map {
+        width: 100%;
+        position: relative;
+    }
+      /* section03 end */
 }
   /* ========769 end======== */
 
@@ -841,7 +897,9 @@ display: none;
   cursor: pointer;
 }
   /* popup end */
-
+  .sec03-title-wrap {
+    padding: 5% 0% 5% 2%;
+}
   .popup-title{
     font-size: 28px;
   }
@@ -855,6 +913,41 @@ display: none;
   /* popup contents end */
 
   /* section02 end */
+  .tourcourse {
+    font-size: 3.1rem;
+  }
+  .sec03-normal {
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+  }
+  .guide-menu-wrap {
+    width: 62%;
+  }
+  .guide-width {
+    width: 25%;
+  }
+  .circle {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 16%;
+    margin-left: 15%;
+  }
+  .guideMap-menu {
+    font-size: 16px;
+    margin-left: 4%;
+  }
+
+  /* popup contents start */
+  .map-popup-title {
+    font-size: 1.5rem;
+    margin: 7% 0% 5% 0%;
+  }
+  .map-popup-normal {
+    font-size: 0.7rem;
+    margin: 4% 0 4% 0%;
+  }
+  /* section03 end */
 
 }
  /* ========514 end======== */
@@ -927,6 +1020,32 @@ display: none;
     }
      /* popup end */
 /* section02 end */
+.guide-menu-wrap {
+  width: 100%;
+}
+.guide-width {
+  width: 25%;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 18%;
+  margin-left: 15%;
+}
+.guideMap {
+  margin: 15% 0%;
+}
+.circle {
+  margin-bottom: 20%;
+  font-size: 14px;
+}
+.guideMap-menu {
+  font-size: 14px;
+  margin-left: 4%;
+  line-height: 21px;
+}
+/* section03 end */
 }
  /* ========415 end======== */
 
@@ -965,6 +1084,24 @@ display: none;
   }
    /* popup end */
 /* section02 end */
+.tourcourse {
+  font-size: 2.5rem;
+}
+.sec03-normal {
+  font-size: 1.0rem;
+  padding-bottom: 5%;
+}
+.guide-width {
+  width: 30%;
+}
+.circle {
+  margin-bottom: 16%;
+}
+.guideMap {
+  margin: 10% 0% 8% 0%;
+}
+
+/* section03 end */
 }
 /* ========375 end======== */
 
