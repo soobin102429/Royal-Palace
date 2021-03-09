@@ -15,6 +15,8 @@
     <!-- fontawesome  -->
     <link rel="stylesheet" href="css/jquery.bxslider.css">
     <!-- bxslider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Link Swiper's CSS -->
 
 </head>
 <body>
@@ -778,7 +780,7 @@
           <section class="section04">
               <div class="container-fluid">
                   <div class="sec04-wrap">
-
+                      
                   </div>
                   <!-- sec04-wrap end -->
               </div>
@@ -786,17 +788,135 @@
           </section>
           <!-- ===================section04 end ======================-->
 
+           <!-- ===================Start section05 ======================-->
+           <section class="section05">
+            <div class="container-fluid">
+                <div class="sec05-wrap">
+                    <div class="sec05-contents-wrap">
+                        <div class="sec05-logo">
+                            <img src="images/logo.png" alt="logo">
+                        </div>
+                        <!-- logo end -->
+                        <div class="sec05-title">
+                           조선왕조의 문화, <span class="main-color">경복궁</span>에 모이다.
+                        </div>
+                        <p class="sec05-normal">
+                            경복궁만의 독자적인 시각에 깊이있는 관점이 더해져<br>
+                            남녀노소 누구나 즐길 수 있는 문화행사 이다.<br>
+                            경복궁에서는 매일 고풍있는 전통문화를 만날 수 있다.
+                        </p>
+                    </div>
+                    <!-- sec05-contents-wrap end -->
+
+                    <div class="sec05-swiper">
+                        <!-- Swiper -->
+                        <div class="swiper-container">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/sec05-img-1.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/sec05-img-2.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/sec05-img-3.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/sec05-img-4.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/sec05-img-5.png" alt="">
+                            </div>
+                          </div>
+                          <!-- Add Pagination -->
+                          <div class="swiper-pagination"></div>
+                        </div>
+                        <!-- swiper-container -->
+                      
+                    </div>
+                </div>
+                <!-- sec05-wrap end -->
+            </div>
+            <!-- container-fluid end -->
+        </section>
+        <!-- ===================section05 end ======================-->
+
+         <!-- ===================Start section06 ======================-->
+         <section class="section06">
+            <div class="container-fluid">
+                <div class="sec06-wrap">
+                   <div class="sec06-contents-wrap">
+                       <p class="sec06-normal">경복궁 오시는 길</p>
+                       <h1 class="sec06-title">VISIT</h1>
+                   </div>
+                   <!-- sec06-contents-wrap end -->
+
+                   <div class="map-wrap-0"> 
+                       <div class="parking-popup">
+                           <div class="sec06-popup"></div>
+                           <div class="parking">주차장</div>
+                       </div>
+                       <!-- parking-popup end -->
+                       <div class="map-0"></div>
+                       <!-- map end -->
+                       <div class="transportation-popup">
+                           <div class="sec06-popup"></div>
+                           <div class="transportation">대중교통</div>
+                       </div>
+                       <!-- transportation-popup end -->
+                   </div>
+                   <!-- map-wrap end -->
+                </div>
+                <!-- sec06-wrap end -->
+            </div>
+            <!-- container-fluid end -->
+        </section>
+        <!-- ===================section06 end ======================-->
+
 
           
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <!-- Swiper JS -->
  <script src="js/progress.js"></script>
  <script src="js/map.js"></script>
  <script src="js/section01-menu.js"></script>
  <script src="js/main.js"></script>
 
+<!-- Initialize Swiper -->
+<script>
+    
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 5,
+      spaceBetween: 60,
+      slidesPerGroup: 1,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints:{
+        640:{
+            slidesPerView:2,
+        },
+        768:{
+            slidesPerView:3,
+        },
+        1024:{
+            slidesPerView:5,
+        }
+    },
+    });
+   
+</script>
 
 </body>
 </html>
