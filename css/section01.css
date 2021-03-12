@@ -877,6 +877,24 @@ td{
 
 
 /*  =================start media query================= */
+@media(max-width:1440px){
+  .sec04-title-contents-wrap{
+    width: 100%;
+  }
+  .sec04-title-wrap{
+    float: left;
+  }
+  .sec04-main-contents-wrap{
+    width: 100%;
+  }
+  .sec04-subtitle-wrap{
+    float: right;
+    margin-top: 2%;
+  }
+  .sec04-subtitle-ex{
+    display: none;
+  }
+}
 
 @media (max-width:1025px){
 /* section02  */
@@ -1109,6 +1127,13 @@ td{
         position: relative;
     }
       /* section03 end */
+      .sec04-title{
+        font-size: 4.2rem;
+      }
+      .sec04-normal{
+        font-size: 1.2rem;
+      }
+      /* section04 end */
 }
   /* ========769 end======== */
 @media(max-width:691px){
