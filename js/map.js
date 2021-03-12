@@ -28,6 +28,7 @@ $(function(){
         $(".map-popupbg-01").css("display", "block");
         $(".guide-menu01").css("color","#f2d88f");
         $("#guide-map").attr("src","images/mapbtn-01_on.png");
+        
         return false; 
     });
 
@@ -719,3 +720,23 @@ $(function(){
 //코스 버튼14 end
 
 //map end//
+
+$(function(){
+    $(".line-01-wrap").click(function(){
+        $(".sec04-tab-01").css("display","block");
+        $(".sec04-tab-02").css("display","none");
+        $(".sec04-tab-03").css("display","none");
+    });
+    $(".line-02-wrap").click(function(){
+        $(".sec04-tab-02").css("display","block");
+        $(".sec04-tab-01").css("display","none");
+        $(".sec04-tab-03").css("display","none");
+    });
+    $(".line-03-wrap").click(function(){
+        $(".sec04-tab-03").css("display","block");
+        $(".sec04-tab-01").css("display","none");
+        $(".sec04-tab-02").css("display","none");
+    });
+    
+});
+//tabbar end
