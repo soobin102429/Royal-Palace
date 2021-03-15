@@ -817,7 +817,7 @@ td{
   display: none;
 }
 /* 컨텐츠 */
-
+/* 
 .sec04-line-wrap{
   width: 100%;
   margin: 2%;
@@ -827,10 +827,11 @@ td{
   margin: 0 auto;
 }
 .line-01-wrap,.line-02-wrap,.line-03-wrap{
+  padding:2%;
   float: left;
-  padding-left:18%;
   margin: 0 auto;
   text-align: center;
+  border: #777 1px solid;
 }
 
 .line-01:hover,.line-02:hover,.line-03:hover{
@@ -858,20 +859,31 @@ td{
   text-align: center;
   margin-top: 10px;
 }
-.line-wrap{
-  
-  z-index: 9999;
-}
-.line{
-  width: 95%;
-  height: 1px;
-  background: #777;
-  margin-left: 1%;
-  z-index: 9999;
+ */
+
+.sec04-line-wrap{
+  width: 100%;
+  margin: 2% 0 0 0;
 }
 
-
-
+.line-01-ko:hover,.line-02-ko:hover,.line-03-ko:hover{
+  color: black;
+  background-color: #fff;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 400;
+}
+.line-01-ko,.line-02-ko,.line-03-ko{
+  width: 33%;
+  padding: 2% 0;
+  float: left;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.0rem;
+  font-weight: 200;
+  text-align: center;
+  border: 1px solid #777;
+}
 /*  =================section 04 end================= */
 
 
@@ -991,6 +1003,26 @@ td{
 /* section03 end */
 }
 
+@media(max-width:822px){
+  .sec04-title-wrap {
+    float: none;
+}
+.sec04-subtitle-wrap {
+  float: none;
+  /* margin-top: 2%; */
+}
+.sec04-normal {
+  padding-bottom: 5%;
+}
+.sec04-img {
+  margin-top: 3%;
+}
+.line-01-ko, .line-02-ko, .line-03-ko {
+  width: 32.6%;
+}
+/* section04 end */
+}
+ /* ========822 end======== */
 @media (max-width:769px){
     .menu ul li{
         display: none;
@@ -1136,6 +1168,7 @@ td{
       /* section04 end */
 }
   /* ========769 end======== */
+
 @media(max-width:691px){
    /* section02 */
    .cn{
