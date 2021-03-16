@@ -802,6 +802,7 @@ td{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
+  line-height: 1.5rem;
 }
 .sec04-ex{
   color: white;
@@ -813,53 +814,13 @@ td{
   font-size: 1.2rem;
   font-weight: 400;
 }
+.line-height{
+  line-height: 30px;
+}
 .sec04-tab-02,.sec04-tab-03{
   display: none;
 }
 /* 컨텐츠 */
-/* 
-.sec04-line-wrap{
-  width: 100%;
-  margin: 2%;
-}
-.sec04-line-contents{
-  width: 100%;
-  margin: 0 auto;
-}
-.line-01-wrap,.line-02-wrap,.line-03-wrap{
-  padding:2%;
-  float: left;
-  margin: 0 auto;
-  text-align: center;
-  border: #777 1px solid;
-}
-
-.line-01:hover,.line-02:hover,.line-03:hover{
-  background: #d1bb72;
-}
-.line-01,.line-02,.line-03{
-  width:6px;
-  height:6px;
-  content:" ";
-  display:block;
-  background:#777;
-  border:solid 7px #fff;
-  border-radius:50%;
-  box-shadow:0 2px 13px -1px rgba(0,0,0,0.3);
-  transition:all ease 0.2s;
-  margin: 0 19px;
-  cursor: pointer;
-}
-
-.line-01-ko,.line-02-ko,.line-03-ko{
-  color: white;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.0rem;
-  font-weight: 200;
-  text-align: center;
-  margin-top: 10px;
-}
- */
 
 .sec04-line-wrap{
   width: 100%;
@@ -872,6 +833,7 @@ td{
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.0rem;
   font-weight: 400;
+  cursor: pointer;
 }
 .line-01-ko,.line-02-ko,.line-03-ko{
   width: 33%;
@@ -883,9 +845,160 @@ td{
   font-weight: 200;
   text-align: center;
   border: 1px solid #777;
+  cursor: pointer;
 }
 /*  =================section 04 end================= */
 
+/*  =================section 05 START================= */
+
+.sec05-wrap{
+  width: 100%;
+  background-image: url('../images/d90bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+}
+
+/* bg end */
+.sec05-contents-wrap{
+  text-align: center;
+}
+.sec05-logo{
+ padding-top: 5%;
+  margin-bottom: 2%;
+}
+.sec05-logo>img{
+  width: 121px;
+}
+.sec05-title{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  color: white;
+  margin-bottom: 2%;
+}
+.main-color{
+  color: #d1bb72;
+}
+.sec05-normal{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 37px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: white;
+  margin-bottom: 6%;
+}
+
+  /* sec05-contents-wrap end */
+  .swiper-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+/*  =================section 05 end================= */
+
+/*  =================section 06 START================= */
+.sec06-wrap{
+  width: 100%;
+  background-image: url('../images/d90bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative;
+}
+
+.sec06-contents{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.sec06-title{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  text-align: center;
+  color: white;
+  padding-bottom: 1%;
+}
+.sec06-normal{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgb(172, 172, 172);
+  margin-bottom: 2%;
+  }
+  .sec06-info{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .sec06-info{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color:rgb(172, 172, 172);
+  }
+  .sec06-info-responsive{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color:rgb(172, 172, 172);
+    display: none;
+  }
+  .sec06-floatL{
+    margin-bottom: 1%;
+    text-align: left;
+  }
+  /* responsive end */
+  /*====== info end==== */
+
+  .map-transportation-wrap{
+    border: 1px #777 solid;
+    width: 70%;
+    margin: 0 auto;
+   
+    margin-bottom:2% ;
+    text-align: left;
+  }
+  .text-white{
+    color: rgb(184, 184, 184);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .f-L{
+    float: left;
+  }
+  .sec-06-circle{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #d3b460;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  /* bus */
+
+  /*  =================section 06 end================= */
+  
 
 
 /*  =================start media query================= */
@@ -1002,7 +1115,40 @@ td{
 }
 /* section03 end */
 }
+@media(max-width:864px){
+  .cn{
+    font-size: 2.0rem;
+    margin-bottom: 2%;
+  }
+  .kr{
+    font-size: 4.3rem;
+    margin-bottom: 2%;
+  }
+  .sec02-normal{
+    font-size: 1.5rem;
+    line-height: 45px;
+  }
+  /* sec02-contents end */
+  .process-wrapper {
+    padding-top: 60%;
+ }
+ /* process end */
+ .popup-title{
+   font-size: 31px;
+ }
+ .x{
+   font-size: 29px;
+ }
+ .popup-normal{
+   font-size: 16px;
+ }
+ .name,.popup-img-ex{
+   font-size: 14px;
+ }
+ /* popup contents end */
 
+  /* section02-end */
+}
 @media(max-width:822px){
   .sec04-title-wrap {
     float: none;
@@ -1518,6 +1664,50 @@ td{
   line-height: 21px;
 }
 /* section03 end */
+.sec04-title {
+  font-size: 3.1rem;
+  padding-bottom: 1.5%;
+}
+.sec04-normal {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding-bottom: 10%;
+}
+.sec04-subtitle {
+ font-size: 3.5rem;
+}
+.sec04-sub-en {
+  font-size: 1.3rem;
+  margin-top: 19px;
+}
+.sec04-sub-ko {
+  font-size: 1.3rem;
+}
+.sec04-img {
+  height: 110px;
+}
+.line-01-ko, .line-02-ko, .line-03-ko {
+  padding: 3% 0;
+  margin-bottom: 3%;
+}
+.sec04-contents-ex {
+  font-size: 14px;
+}
+table>tbody>tr>td{
+  font-size: 14px;
+  padding-bottom: 1%;
+  line-height: 23px;
+}
+.sec04-ex{
+  font-size: 14px;
+}
+.sec04-num{
+  font-size: 14px;
+}
+.line-height{
+  line-height: 23px;
+}
+/* section04 */
 }
  /* ========415 end======== */
 
@@ -1574,6 +1764,38 @@ td{
 }
 
 /* section03 end */
+.line-01-ko, .line-02-ko, .line-03-ko {
+  width: 32.4%;
+}
+.sec04-title {
+  font-size: 2.9rem;
+}
+.sec04-normal {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.sec04-subtitle {
+  font-size: 3.2rem;
+}
+.sec04-sub-ko,.sec04-sub-en {
+  font-size: 17px;
+}
+.line-01-ko, .line-02-ko, .line-03-ko {
+  padding: 4% 0;
+}
+table>tbody>tr>td {
+  font-size: 12px;
+}
+.sec04-ex{
+  font-size: 12px;
+}
+.sec04-num{
+  font-size: 12px;
+}
+.sec04-contents-ex {
+  font-size: 12px;
+}
+/* section04 end */
 }
 /* ========375 end======== */
 
@@ -1587,6 +1809,27 @@ td{
   }
    /* popup end */
 /* section02 end */
+.sec04-title {
+  font-size: 2.3rem;
+}
+.sec04-normal {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+.sec04-img {
+  height: 90px;
+}
+table>tbody>tr>td {
+  font-size: 11px;
+}
+.sec04-ex{
+  font-size: 11px;
+}
+.sec04-num{
+  font-size: 11px;
+}
+
+/* section04 end */
 }
 /* ========375 end======== */
 
