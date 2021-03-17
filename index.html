@@ -1056,48 +1056,67 @@
                 <div class="container-fluid">
                     <div class="sec06-wrap">
                         <div class="sec06-contents">
+                            <p class="sec06-normal">경복궁 오시는 길</p>
                              <h1 class="sec06-title">VISIT</h1>
-                             <p class="sec06-normal">경복궁 오시는 길 안내</p>
-
-                             <div class="sec06-info">
-                                <span class="sec06-address-wrap sec06-floatL">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                       <span class="sec06-address">서울특별시 종로구 사직로 161</span>
-                                </span>
-                                <span class="sec06-phone-wrap sec06-floatL">
-                                    <i class="fas fa-phone-square-alt"></i>
-                                       <span class="sec06-address">(02) 3700-3900</span>
-                                </span>
-                                <span class="sec06-fax-wrap sec06-floatL">
-                                    <i class="fas fa-fax"></i>
-                                       <span class="sec06-address">02-3700-3909</span>
-                                </span>
-                             </div>
-
-                             <div class="sec06-info-responsive">
-                                <div class="sec06-address-wrap sec06-floatL">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                       <span class="sec06-address">서울특별시 종로구 사직로 161</span>
-                                </div>
-                                <div class="sec06-phone-wrap sec06-floatL">
-                                    <i class="fas fa-phone-square-alt"></i>
-                                       <span class="sec06-address">(02) 3700-3900</span>
-                                </div>
-                                <div class="sec06-fax-wrap sec06-floatL">
-                                    <i class="fas fa-fax"></i>
-                                       <span class="sec06-address">02-3700-3909</span>
-                                </div>
-                             </div>
-                             
                         </div>
-                        <!-- sec06-contents -->
+                        <!-- title end -->
                         <div class="map-transportation-wrap">
-                            <div class="sec06-map-wrap">
-                                <div id="map" style="width:100%;height:400px;"></div>
-                            </div>
-                            <!-- map end -->
+                                <div class="parking-wrap">
+                                    <i class="fas fa-car"></i>
+                                    <p class="parking">주차장</p>
+                                </div>
+                                <div id="map"></div>
+                                <!-- map end -->
+                                <div class="transportation-wrap">
+                                    <i class="fas fa-bus"></i>
+                                    <p class="transportation">대중교통</p>
+                                </div>
                         </div>
                         <!-- map-transportation-wrap  -->
+                        <div class="parking-popup-wrap">
+                            <div class="sec06-popupbg sec06-01-popup-bg"></div>
+                            <div class="sec06-popup sec06-01-popup">
+                                <!-- map-popup-wrap -->
+                                <div class="parking-popup-wrap">
+                                    <h1 class="parking-title">Parking</h1>
+                                    <img src="images/sec06-parking.png" alt="주차장 약도" class="sec06-popup-img">
+                                    <p class="sec06-popup-normal">서울 종로구 사직로 161 경복궁</p>
+                                    <p class="sec06-ex-normal">- 주차장 운영시간 : 06:00 ~ 23:00<br>- 광화문에서 삼청동 가는 길 초압 좌측편에 위치 </p>
+                                    <p class="sec06-popup-normal">※주차요금 안내※</p>
+
+                                    <table style="border: 1px solid #777; width: 100%; text-align: center;">
+                                        <colgroup>
+                                            <col width="25%"/>
+                                            <col width="25%" />
+                                            <col width="25%" />
+                                            <col width="25%" />
+                                        </colgroup>
+                                        <tr>
+                                            <td style="border: 1px solid #777; background: #1c1c1c; color: white;  padding: 3%;">구분</td>
+                                            <td  style="border: 1px solid #777; background: #1c1c1c; color: white;  padding: 3%;">기본 2시간</td>
+                                            <td style="border: 1px solid #777; background: #1c1c1c; color: white;  padding: 3%;">초과요금</td>
+                                            <td  style="border: 1px solid #777; background: #1c1c1c; color: white;  padding: 3%;">회전시간</td>
+                                        </tr>
+                                        <tr>
+                                            <td  style="border: 1px solid #777; background: #1c1c1c; color: white;  padding: 3%;">소형차</td>
+                                            <td style="border: 1px solid #777;  padding: 3%;">3000원</td>
+                                            <td style="border: 1px solid #777;  padding: 3%;">800원</td>
+                                            <td style="border: 1px solid #777;  padding: 3%;">무료</td>
+                                        </tr>
+                                        <tr>
+                                            <td  style="border: 1px solid #777; background: #1c1c1c; color: white;  padding: 3%;">중/대형차</td>
+                                            <td style="border: 1px solid #777;  padding: 3%;">5000원</td>
+                                            <td style="border: 1px solid #777;  padding: 3%;">800원</td>
+                                            <td style="border: 1px solid #777;  padding: 3%;">무료</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <!-- map-popup-wrap end -->
+                                <label for="sec06-popup"></label>
+                            </div>
+                            </div>
+                            <!-- parking-popup-wrap end -->
+                            
 
                     </div>
                     <!-- sec06-wrap end -->
@@ -1105,7 +1124,7 @@
                 <!-- container-fluid end -->
             </section>
             <!-- ===================section06 end ======================-->
-         
+
           
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -1139,7 +1158,7 @@ var marker = new kakao.maps.Marker({
 // 마커가 지도 위에 표시되도록 설정합니다
 marker.setMap(map);
 
-var iwContent = '<div style="padding:5px;">경복궁 <br><a href="https://map.kakao.com/link/map/경복궁37.5759, 126.9768" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/경복궁,37.5759, 126.9768" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
+var iwContent = '<div style="padding:7px; font-family: Noto Sans KR, sans-serif;">경복궁 <br><a href="https://map.kakao.com/link/map/경복궁37.5759, 126.9768" style="color:blue" target="_blank">큰지도보기</a> <a href="https://map.kakao.com/link/to/경복궁,37.5759, 126.9768" style="color:blue" target="_blank">길찾기</a></div>', // 인포윈도우에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
     iwPosition = new kakao.maps.LatLng(37.5759, 126.9768); //인포윈도우 표시 위치입니다
 
 // 인포윈도우를 생성합니다
