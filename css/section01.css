@@ -957,6 +957,7 @@ td{
     height: 550px;
     margin: 0 auto;
     float: left;
+    margin-bottom: 4%;
   }
   .parking-wrap{
     text-align: center;
@@ -965,6 +966,7 @@ td{
     color: #a0a0a0;
     width: 15%;
     margin-top: 30%;
+    cursor: pointer;
   }
   .transportation-wrap{
     text-align: center;
@@ -974,18 +976,40 @@ td{
     color: #a0a0a0;
     width: 15%;
     margin-top: 30%;
+    cursor: pointer;
   }
 
   .parking,.transportation{
     padding-top: 10px;
+    cursor: pointer;
   }
   .fa-bus,.fa-car{
     font-size: 30px;
+    cursor: pointer;
   }
   .fa-bus:hover,.fa-car:hover{
     color: #d1bb72;
   } 
-
+  .sec06-responsive{
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 10%;
+    display: none;
+  }
+  .parking-wrap-responsive{
+    text-align: center;
+    margin: 1% auto;
+    float: left;
+    color: #a0a0a0;
+    cursor: pointer;
+  }
+  .transportation-wrap-responsive{
+    text-align: center;
+    margin: 1% auto;
+    float: right;
+    color: #a0a0a0;
+    cursor: pointer;
+  }
   /* sec06-popup */
   /* start popup wrap */
 .sec06-popupbg{
@@ -1047,7 +1071,7 @@ display: none;
 }
 /* map-popup wrap end */
 /* map-popup-contents-wrap */
-.parking-popup-wrap{
+.parking-popup-wrap,.transportation-popup-wrap{
   width: 80%;
   margin: 0 auto;
 }
@@ -1056,7 +1080,7 @@ display: none;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 2rem;
   font-weight: 400;
-  margin:  5% 0% 4% 0%;
+  margin:  5% 0% 4% 1%;
 }
 .sec06-popup-img{
   width: 100%;
@@ -1066,8 +1090,8 @@ display: none;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.1rem;
   line-height: 1.6rem;
-  font-weight: 200;
-  margin:  1% 0 1% 0%;
+  font-weight: 400;
+  margin:  1% 0 1% 1%;
 }
 .sec06-ex-normal{
   color: white;
@@ -1075,7 +1099,7 @@ display: none;
   font-size: 0.9rem;
   line-height: 1.6rem;
   font-weight: 200;
-  margin:  3% 0 5% 0%;
+  margin:  3% 0 5% 1%;
 }
 
 
@@ -1200,7 +1224,22 @@ display: none;
 .map-transportation-wrap{
   width: 85%;
 }
-
+.parking-wrap,.transportation-wrap{
+  display: none;
+}
+.map-transportation-wrap{
+  width: 100%;
+}
+#map{
+  width: 90%;
+  float: none;
+}
+.sec06-responsive{
+  display: block;
+}
+.sec06-popup {
+  width: 52%;
+}
 /* section06 end */
 }
 @media(max-width:864px){
@@ -1400,6 +1439,10 @@ display: none;
         font-size: 1.2rem;
       }
       /* section04 end */
+      .sec06-popup {
+        width: 69%;
+      }
+      /* section06 end */
 }
   /* ========769 end======== */
 
@@ -1626,6 +1669,22 @@ display: none;
     margin: 4% 0 4% 0%;
   }
   /* section03 end */
+
+  .sec06-title {
+    font-size: 60px;
+    padding-bottom: 5%;
+}
+
+.sec06-normal {
+    font-size: 22px;
+}
+#map{
+  height: 480px;
+}
+.sec06-popup {
+  width: 92%;
+}
+  /* section06 end */
 
 }
  /* ========514 end======== */

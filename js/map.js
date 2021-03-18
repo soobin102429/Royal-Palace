@@ -741,3 +741,73 @@ $(function(){
 });
 //tabbar end
 
+$(".parking-wrap").click( function() {
+    $(".sec06-01-popup-bg").css("display","block");
+    $(".sec06-01-popup").css("display", "block");
+    // $(".popupbg-02").css("display", "none");
+    // $(".popup-02").css("display", "none");
+});
+
+$("label").click( function() {
+    $(".sec06-01-popup-bg").css("display","none");
+    $(".sec06-01-popup").css("display", "none");
+});
+
+$(".sec06-01-popup-bg").click( function() {
+    $(".sec06-01-popup-bg").css("display","none");
+    $(".sec06-01-popup").css("display", "none");
+});
+
+$(".transportation-wrap").click( function() {
+    $(".sec06-02-popup-bg").css("display","block");
+    $(".sec06-02-popup").css("display", "block");
+    // $(".popupbg-02").css("display", "none");
+    // $(".popup-02").css("display", "none");
+});
+
+$("label").click( function() {
+    $(".sec06-02-popup-bg").css("display","none");
+    $(".sec06-02-popup").css("display", "none");
+});
+
+$(".sec06-02-popup-bg").click( function() {
+    $(".sec06-02-popup-bg").css("display","none");
+    $(".sec06-02-popup").css("display", "none");
+});
+
+
+// ==
+$(".parking-wrap-responsive").click( function() {
+    $(".sec06-01-popup-bg").css("display","block");
+    $(".sec06-01-popup").css("display", "block");
+    // $(".popupbg-02").css("display", "none");
+    // $(".popup-02").css("display", "none");
+});
+
+$("label").click( function() {
+    $(".sec06-01-popup-bg").css("display","none");
+    $(".sec06-01-popup").css("display", "none");
+});
+
+$(".sec06-01-popup-bg").click( function() {
+    $(".sec06-01-popup-bg").css("display","none");
+    $(".sec06-01-popup").css("display", "none");
+});
+
+$(".transportation-wrap-responsive").click( function() {
+    $(".sec06-02-popup-bg").css("display","block");
+    $(".sec06-02-popup").css("display", "block");
+    // $(".popupbg-02").css("display", "none");
+    // $(".popup-02").css("display", "none");
+});
+
+$("label").click( function() {
+    $(".sec06-02-popup-bg").css("display","none");
+    $(".sec06-02-popup").css("display", "none");
+});
+
+$(".sec06-02-popup-bg").click( function() {
+    $(".sec06-02-popup-bg").css("display","none");
+    $(".sec06-02-popup").css("display", "none");
+});
+
