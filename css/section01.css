@@ -895,7 +895,9 @@ td{
   color: white;
   margin-bottom: 6%;
 }
-
+.line-space{
+  display: none;
+}
   /* sec05-contents-wrap end */
   .center{
     width: 90%;
@@ -904,6 +906,7 @@ td{
   }
   .slick-slide img{
     margin: 0 auto;
+    width: 90%;
   }
   
 
@@ -1679,6 +1682,21 @@ display: none;
     margin: 4% 0 4% 0%;
   }
   /* section03 end */
+  .sec05-title {
+    font-size: 25px;
+    padding-bottom: 3%;
+}
+.sec05-normal {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: white;
+  margin-bottom: 12%;
+}
+  /* section05 end */
 
   .sec06-title {
     font-size: 60px;
@@ -1865,6 +1883,15 @@ table>tbody>tr>td{
   line-height: 23px;
 }
 /* section04 */
+.line-space{
+  display: block;
+}
+.sec05-title {
+  font-size: 28px;
+  padding-bottom: 3%;
+  line-height: 40px;
+}
+/* section05 end */
 }
  /* ========415 end======== */
 
@@ -1888,6 +1915,7 @@ table>tbody>tr>td{
         }
          /* popup end */
     /* section02 end */
+
     .center{
       width: 70%;
       margin: 0 auto;
@@ -1962,6 +1990,17 @@ table>tbody>tr>td {
   font-size: 12px;
 }
 /* section04 end */
+.sec05-title {
+  font-size: 24px;
+  padding-bottom: 3%;
+  line-height: 38px;
+}
+.sec05-normal {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  line-height: 33px;
+}
+/* section05 end */
 }
 /* ========375 end======== */
 
@@ -1996,7 +2035,12 @@ table>tbody>tr>td {
 }
 
 /* section04 end */
+.sec05-normal {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
 }
-/* ========375 end======== */
+/* section05 end */
+}
+/* ========281 end======== */
 
 /*  =================media query end================= */
