@@ -906,7 +906,7 @@ td{
   }
   .slick-slide img{
     margin: 0 auto;
-    width: 90%;
+    width: 220px;
   }
   
 
@@ -1891,6 +1891,10 @@ table>tbody>tr>td{
   padding-bottom: 3%;
   line-height: 40px;
 }
+.slick-slide img {
+  margin: 0 auto;
+  width: 200px;
+}
 /* section05 end */
 }
  /* ========415 end======== */
@@ -1922,7 +1926,7 @@ table>tbody>tr>td{
       margin-bottom: 5%;
     }
     .slick-slide img{
-      width: 100%;
+      width: 80%;
     }
     /* section 05 end */
  }
